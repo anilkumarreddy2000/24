@@ -3,7 +3,7 @@ pilpeline{
     stages{
         stage('checkout'){
             steps{
-                git 'https://github.com/anilkumarreddy2000/CS/tree/main/Nobroker'
+                git 'https://github.com/anilkumarreddy2000/24.git'
             }
         }
         stage('Build'){
